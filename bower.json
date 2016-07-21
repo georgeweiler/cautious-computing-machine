@@ -1,0 +1,22 @@
+{
+  "name": "cautious-computing-machine",
+  "homepage": "https://github.com/georgeweiler/cautious-computing-machine",
+  "authors": [
+    "Ian Mrak <ianmrak@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3",
+    "react": "^15.2.1"
+  }
+}
