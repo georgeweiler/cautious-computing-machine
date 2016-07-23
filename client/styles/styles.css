@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #d0d2d3;
+}
+.clickable {
+  cursor: pointer;
+  pointer-events: initial;
+}
+.fl{
+  float:left;
+}
+.center {
+  text-align: center;
+}
+.track {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 14px;
+  float:left;
+  width:15em;
+}
+
+.track .artwork {
+  height: 100px;
+  width: 100px;
+}
+
+.siteTitle {
+  text-align: center;
+}
+.track .title, .track .artist {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.playlist {
+  background-color: #F5F7F9;
+  display: block;
+  overflow-y: auto;
+  margin: 0 auto  ;
+  height: 30em;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.progress-background {
+  position: absolute;
+  text-align: center;
+  border-radius: 4px;
+  color: #000000;
+  position: absolute;
+  background-color: #6085BD;
+}
+.progress-background2 {
+  text-align: center;
+  border-radius: 4px;
+  color: #000000;
+  position: absolute;
+  background-color: #EAEAEA;
+  z-index: -1;
+}
+.control-button {
+  margin: 2px 5px;
+}
+.trackList {
+  background-color: #F5F7F9;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid gray;
+  min-height: 40px;
+}
+.search-tbody > tr > td:first-child {
+  width: 49px;
+}
+.playerWrapper {
+  background-color: #F5F7F9;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.table {
+  margin-bottom: 0px;
+}
